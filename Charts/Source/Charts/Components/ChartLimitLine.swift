@@ -72,10 +72,10 @@ open class ChartLimitLine: ComponentBase
             {
                 _lineWidth = 0.2
             }
-            else if newValue > 12.0
-            {
-                _lineWidth = 12.0
-            }
+//            else if newValue > 12.0
+//            {
+//                _lineWidth = 12.0
+//            }
             else
             {
                 _lineWidth = newValue
